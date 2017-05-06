@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FileWork()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ FileWork\r\n
+comment1.params=file
+comment1.target=int\ FindA(java.io.File)
+comment1.text=\r\n\ This\ method\ is\ used\ to\ find\ and\ count\ the\ letter\ A\ no\ matter\ the\ case\ of\ the\ letter\ and\ returns\ the\ counter\r\n\ @param\ -\ String\ FileName\r\n\ @return\ -\ int\ counter\r\n
+comment2.params=file\ searchedWord
+comment2.target=int\ Search(java.io.File,\ java.lang.String)
+comment2.text=\r\n\ This\ method\ is\ used\ to\ search\ for\ a\ specific\ word\ in\ a\ file\ and\ returns\ how\ many\ times\ that\ word\ was\ used\r\n\ @param\ -\ String\ FileName\r\n\ @param\ -\ String\ searchedWord\r\n\ @return\ -\ int\ WordCounter\r\n
+comment3.params=file
+comment3.target=java.lang.String\ FindL(java.io.File)
+comment3.text=\r\n\ This\ method\ is\ used\ to\ search\ through\ a\ file\ for\ a\ designated\ line\ and\ return\ the\ contents\ of\ the\ line\r\n\ @param\ -\ String\ FileName\r\n\ @return\ -\ String\ answer\r\n
+comment4.params=
+comment4.target=java.io.File\ getFile()
+numComments=5

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Checking()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Checking\r\n
+comment1.params=newID\ isFamily
+comment1.target=boolean\ addedToHS(int,\ boolean)
+comment2.params=sexIn
+comment2.target=boolean\ sexIsValid(java.lang.String)
+comment3.params=IDIn
+comment3.target=boolean\ isInFamilyHS(int)
+comment4.params=IDIn
+comment4.target=boolean\ isInMemberHS(int)
+comment5.params=newID
+comment5.target=void\ addToFamilyID(int)
+comment6.params=newID
+comment6.target=void\ addToMemberID(int)
+numComments=7

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=key
+comment0.target=EmptyStringException(java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getKey()
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=cause
+comment3.target=EmptyStringException(java.lang.Throwable)
+numComments=4
