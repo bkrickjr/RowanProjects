@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ getHorsePower()
+comment0.text=\r\n\ abstract\ get\ method\ for\ the\ horsepower\r\n\ @param\ -\ none\r\n\ @return\ -\ int\ HorsePower\r\n
+numComments=1

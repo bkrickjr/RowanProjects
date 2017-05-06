@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=NameIn\ ageIn
+comment0.target=Human(java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Human,\ takes\ int\ age(must\ be\ positive),\ and\ a\ string\ name(cant\ be\ empty)\r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\r\n\ getName\ -\ returns\ the\ name\ of\ the\ Human\r\n\ @param\ -\ none\r\n\ @return\ -\ the\ name\ of\ the\ Human\r\n
+comment2.params=NameIn
+comment2.target=void\ setName(java.lang.String)
+comment2.text=\r\n\ setName\ -\ used\ to\ set\ the\ name\ of\ the\ Human\r\n\ \ \ \ \ \ \ \ \ \ \ (must\ not\ be\ null\ or\ empty)\r\n\ @param\ \ \ \r\n
+comment3.params=p
+comment3.target=void\ addPet(Pet)
+comment3.text=\r\n\ addPet\ -\ This\ method\ will\ add\ a\ Pet\ object\ to\ the\ list\ of\ Pets\r\n\ \ \ \ \ \ \ (the\ pet\ added\ must\ not\ be\ null)\r\n\ @param\ -\ Pet\ p\r\n\ @return\ -\ void\r\n
+comment4.params=
+comment4.target=java.util.ArrayList\ getPets()
+comment4.text=\r\n\ getPets\ -\ This\ method\ will\ return\ a\ list\ of\ pets\ "owned"\ by\ the\ Human\r\n\ \r\n\ @return\ a\ list\ of\ pets\ "owned"\ by\ the\ Human\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ toString\ -\ Returns\ the\ state\ of\ the\ object\ as\ a\ String.\r\n\ \r\n\ @return\ -\ String\ representation\ of\ this\ object\r\n
+numComments=6

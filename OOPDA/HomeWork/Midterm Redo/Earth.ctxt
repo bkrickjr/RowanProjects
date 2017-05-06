@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Earth()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Earth\r\n
+comment1.params=m
+comment1.target=void\ addMammal(Mammal)
+comment1.text=\r\n\ Adds\ a\ Mammal\ to\ the\ list\ of\ Mammals\ on\ the\ Earth.\r\n\ \ \ \ \ \ \ \ \ (the\ mammal\ added\ must\ not\ be\ null)\r\n\ @param\ \ \ Mammal\ \r\n
+comment2.params=
+comment2.target=java.util.List\ getMammals()
+comment2.text=\r\n\ Returns\ a\ list\ of\ all\ the\ mammals\ currently\ on\ earth.\r\n\ @param\ -\ none\r\n\ @return\ -\ List\ of\ Mammals\ \r\n
+comment3.params=
+comment3.target=java.util.List\ getHumans()
+comment3.text=\r\n\ Returns\ a\ list\ of\ all\ humans\ currently\ on\ earth.\r\n\ @return\ -\ none\r\n\ @return\ -\ List\ of\ Humans\r\n
+comment4.params=
+comment4.target=java.util.ArrayList\ getOwnedPets()
+comment4.text=\r\n\ getOwnedPets\ -\ returning\ a\ set\ of\ all\ pets\ on\ earth\ owned\ \r\n\ (in\ the\ pets\ list)\ by\ at\ least\ one\ human\ with\ no\ dups;\ \r\n\ it\ is\ acceptable\ for\ two\ different\ humans\ to\ have\ \r\n\ the\ same\ pet\ in\ their\ pet\ lists\r\n\ @param\ -\ none\r\n\ @return\ -\ List\ of\ Pets\r\n
+comment5.params=
+comment5.target=java.util.List\ getHumanNames()
+comment5.text=\r\n\ Returns\ a\ list\ of\ names\ of\ all\ humans\ currently\ on\ earth.\r\n\ @param\ -\ none\r\n\ @return\ -\ List\ of\ names\ \r\n
+comment6.params=
+comment6.target=void\ printOwnedPets()
+comment6.text=\ \r\n\ Prints\ to\ the\ terminal\ window\ each\ pet\ currently\ owned\ on\ Earth,\ without\ dups\r\n\ @param\ -\ none\r\n\ @return\ -\ void\r\n
+comment7.params=
+comment7.target=void\ printAll()
+comment7.text=\r\n\ Prints\ to\ the\ terminal\ window\ each\ mammal\ currently\ on\ earth,\ under\ each\ human,\r\n\ this\ method\ prints\ an\ indented\ list\ of\ pets\ currently\ owned\ by\ that\ human,\ all\ nicely\ formatted.\r\n\ @param\ -\ none\r\n\ @return\ -\ void\r\n
+numComments=8

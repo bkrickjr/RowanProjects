@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Checking()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Checking\r\n
+comment1.params=i
+comment1.target=boolean\ isAboveZero(int)
+comment1.text=\r\n\ check\ method\ that\ returns\ true\ if\ the\ int\ is\ greater\ than\ 0\r\n\ @param\ -\ int\ i\r\n\ @return\ -\ boolean\r\n
+comment2.params=m
+comment2.target=boolean\ mammalIsNotNull(Mammal)
+comment2.text=\r\n\ check\ method\ that\ returns\ true\ if\ the\ pet\ is\ not\ null\r\n\ @param\ -\ Pet\ p\r\n\ @return\ -\ boolean\r\n
+comment3.params=s
+comment3.target=boolean\ isNotNull(java.lang.String)
+comment3.text=\r\n\ check\ method\ that\ returns\ true\ if\ the\ String\ is\ not\ null\r\n\ @param\ -\ String\ s\r\n\ @return\ -\ boolean\r\n
+comment4.params=s
+comment4.target=boolean\ isNotEmpty(java.lang.String)
+comment4.text=\r\n\ check\ method\ that\ returns\ true\ if\ the\ String\ is\ not\ empty\r\n\ @param\ -\ String\ s\r\n\ @return\ -\ boolean\r\n
+numComments=5

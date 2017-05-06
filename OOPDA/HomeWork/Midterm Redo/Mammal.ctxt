@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=ageIn
+comment0.target=Mammal(int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Mammal,\ takes\ an\ int\ age\r\n
+comment1.params=
+comment1.target=int\ getAge()
+comment1.text=\r\n\ getAge\ -\ returns\ the\ age\ of\ the\ Mammal\r\n\ \r\n\ @param\ -\ none\r\n\ @return\ -\ the\ age\ of\ the\ Mammal\r\n
+comment2.params=ageIn
+comment2.target=void\ setAge(int)
+comment2.text=\r\n\ setAge\ -\ allows\ the\ age\ of\ the\ Mammal\ to\ be\ set\r\n\ \ \ \ \ \ \ \ \ \ (must\ be\ positive)\r\n\ @param\ -\ ageIn\ from\ constructor\r\n\ @return\ -\ void\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ Returns\ the\ state\ of\ the\ object\ as\ a\ String\r\n\ \r\n\ @return\ -\ String\ representation\ of\ this\ object\ \r\n
+numComments=4

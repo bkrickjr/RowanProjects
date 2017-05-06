@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=ColorIn\ ageIn
+comment0.target=Pet(java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Pet,\ takes\ an\ int\ age(must\ be\ positive)\ it\ sends\ to\ the\ super\r\n\ and\ a\ string\ color(cant\ be\ empty)\r\n
+comment1.params=
+comment1.target=java.lang.String\ getColor()
+comment1.text=\r\n\ getColor\ -\ returns\ the\ Pet's\ color\r\n\ \r\n\ @return\ the\ Pet's\ color\ \ \ \ \r\n
+comment2.params=ColorIn
+comment2.target=void\ setColor(java.lang.String)
+comment2.text=\r\n\ setColor\ -\ sets\ the\ Pet's\ color\r\n\ \r\n\ @param\ -\ ColorIn\ from\ constructor\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ toString\ -\ returns\ the\ state\ of\ the\ Pet\ as\ a\ String\ \r\n\ \r\n\ @return\ -\ String\ representation\ of\ this\ object\ \ \r\n
+comment4.params=obj
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\r\n\ equals\ method\ to\ check\ if\ two\ pets\ are\ the\ same\ by\ checking\ age\ and\ color\r\n\ @param\ -\ Object\ obj\r\n\ @return\ -\ boolean\r\n
+numComments=5

@@ -1,0 +1,1 @@
+Please update so each subclass of powered has a different value for horsepower
