@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SimpleChecks()
+comment1.params=s
+comment1.target=boolean\ CheckIsNull(java.lang.String)
+comment2.params=b
+comment2.target=java.lang.String\ CheckIsIn(boolean)
+comment3.params=i
+comment3.target=boolean\ CheckNotNegative(int)
+comment4.params=s\ a
+comment4.target=boolean\ CheckValidRating(java.lang.String,\ java.lang.String[])
+comment5.params=H
+comment5.target=int\ CheckHtM(int)
+comment6.params=M
+comment6.target=int\ CheckMtH(int)
+numComments=7

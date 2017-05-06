@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=NameIn\ SexIn\ OrgIn\ BDayIn\ PLIn
+comment0.target=Programmer(java.lang.String,\ java.lang.String,\ Organization,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Programmer,\ all\ inputs\ are\ strings,\ Sex\ should\ be\r\n\ just\ "M"\ "F"\ or\ "T",\ Birthday\ in\ the\ form\ of\ "XX/XX/XX",\r\n\ @param\ -\ String\ NameIn,\ Sting\ SexIn,\ Organization\ OrgIn,\ String\ BDayIn,\ String\ PLIn\r\n
+comment1.params=PLIn
+comment1.target=void\ setPL(java.lang.String)
+comment1.text=\r\n\ set\ method\ for\ the\ primary\ language\ of\ the\ programmer\r\n\ @param\ -\ String\ PLIn\r\n\ @return\ -\ void\r\n
+comment2.params=
+comment2.target=java.lang.String\ getPrimLang()
+comment2.text=\r\n\ get\ method\ for\ the\ primary\ language\r\n\ @param\ -\ none\r\n\ @return\ -\ PrimaryLanguage\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ toString\ method\ for\ programmer\r\n\ @param\ -\ none\r\n\ @return\ -\ string\ representation\ of\ this\ object\r\n
+comment4.params=obj
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\r\n\ equals\ method\ for\ comparing\ employees,\ only\ needed\ in\ the\ super\ class\ because\r\n\ it\ only\ compares\ Name,\ Sex,\ Birthay,\ and\ Organization\r\n\ @param\ -\ Object\ Employee\r\n\ @return\ boolean\r\n
+numComments=5

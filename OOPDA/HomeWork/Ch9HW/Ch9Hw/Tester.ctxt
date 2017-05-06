@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=NameIn\ SexIn\ OrgIn\ BDayIn\ PATIn
+comment0.target=Tester(java.lang.String,\ java.lang.String,\ Organization,\ java.lang.String,\ Programmer)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Tester,\ all\ inputs\ are\ strings\ except\ PAT,\ Sex\ should\ be\r\n\ just\ "M"\ "F"\ or\ "T",\ Birthday\ in\ the\ form\ of\ "XX/XX/XX",\ \r\n\ @param\ -\ String\ NameIn,\ Sting\ SexIn,\ Organization\ OrgIn,\ String\ BDayIn,\ Programmer\ PATIn\r\n
+comment1.params=PATIn
+comment1.target=void\ setPAT(Programmer)
+comment1.text=\r\nset\ method\ for\ the\ Programmer\ the\ Tester\ is\ assigned\ to\r\n\ @param\ -\ String\ PATIn\r\n\ @return\ -\ void\ \r\n
+comment2.params=
+comment2.target=Programmer\ getPAT()
+comment2.text=\r\n\ get\ method\ for\ the\ Programmer\ the\ Tester\ is\ assigned\ to\r\n\ @param\ -\ none\r\n\ @return\ -\ ProgrammerAssignedTo\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ toString\ method\ for\ tester\r\n\ @param\ -\ none\r\n\ @return\ -\ string\ representation\ of\ this\ object\r\n
+comment4.params=obj
+comment4.target=boolean\ equals(java.lang.Object)
+comment4.text=\r\n\ equals\ method\ for\ comparing\ employees,\ only\ needed\ in\ the\ super\ class\ because\r\n\ it\ only\ compares\ Name,\ Sex,\ Birthay,\ and\ Organization\r\n\ @param\ -\ Object\ Employee\r\n\ @return\ boolean\r\n
+numComments=5

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=TitleIn\ AvailabilityIn\ PlayTimeHoursIn\ PlayTimeMinutesIn\ CopyrightYearIn\ AuthorIn\ NarratorIn
+comment0.target=AudioBook(java.lang.String,\ boolean,\ int,\ int,\ int,\ java.lang.String,\ java.lang.String)
+comment1.params=AuthorIn
+comment1.target=void\ ABSetAuthor(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ ABGetAuthor()
+comment3.params=NarratorIn
+comment3.target=void\ ABSetNarrator(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ ABGetNarrator()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

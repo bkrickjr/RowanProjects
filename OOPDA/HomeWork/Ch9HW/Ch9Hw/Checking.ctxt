@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Checking()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Checking\r\n
+comment1.params=S
+comment1.target=boolean\ isNull(java.lang.String)
+comment1.text=\r\n\ Checking\ method\ that\ returns\ true\ if\ a\ string\ is\ null\r\n\ @param\ -\ String\ S\r\n\ @return\ -\ boolean\r\n
+comment2.params=X
+comment2.target=boolean\ isValidSex(java.lang.String)
+comment2.text=\r\n\ Checking\ method\ that\ returns\ true\ if\ the\ sex\ is\ valid\r\n\ @param\ -\ String\ X\r\n\ @return\ -\ boolean\r\n
+comment3.params=B
+comment3.target=boolean\ isValidBDay(java.lang.String)
+comment3.text=\r\n\ Checking\ method\ that\ returns\ true\ if\ the\ birthday\ was\ entered\ in\ the\ proper\r\n\ XX/XX/XX\ format\r\n\ @param\ -\ String\ B\r\n\ @return\ -\ boolean\r\n
+comment4.params=c
+comment4.target=boolean\ checkNumberChar(char)
+comment4.text=\r\n\ Checking\ method\ that\ returns\ true\ if\ the\ character\ is\ between\ 0\ and\ 9\r\n\ @param\ -\ char\ c\r\n\ @return\ -\ boolean\r\n
+numComments=5

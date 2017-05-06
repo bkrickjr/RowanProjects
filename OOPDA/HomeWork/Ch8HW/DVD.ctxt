@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=TitleIn\ AvailabilityIn\ PlayTimeHoursIn\ PlayTimeMinutesIn\ CopyrightYearIn\ RatingIn\ BonusHoursIn\ BonusMinutesIn
+comment0.target=DVD(java.lang.String,\ boolean,\ int,\ int,\ int,\ java.lang.String,\ int,\ int)
+comment1.params=RatingIn
+comment1.target=void\ DVDSetRating(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ DVDGetRating()
+comment3.params=BonusHoursIn
+comment3.target=void\ DVDSetBonusHours(int)
+comment4.params=
+comment4.target=int\ DVDGetBH()
+comment5.params=BonusMinutesIn
+comment5.target=void\ DVDSetBonusMinutes(int)
+comment6.params=
+comment6.target=int\ DVDGetBM()
+comment7.params=
+comment7.target=int\ GetTotalPlayTime()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

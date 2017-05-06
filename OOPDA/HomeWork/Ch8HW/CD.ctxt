@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=TitleIn\ AvailabilityIn\ PlayTimeHoursIn\ PlayTimeMinutesIn\ CopyrightYearIn\ ArtistIn\ TracksIn
+comment0.target=CD(java.lang.String,\ boolean,\ int,\ int,\ int,\ java.lang.String,\ int)
+comment1.params=ArtistIn
+comment1.target=void\ CDSetArtist(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ CDGetArtist()
+comment3.params=TracksIn
+comment3.target=void\ CDSetTracks(int)
+comment4.params=
+comment4.target=int\ CDGetTracks()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6
