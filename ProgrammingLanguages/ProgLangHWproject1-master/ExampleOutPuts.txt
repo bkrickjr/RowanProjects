@@ -1,0 +1,71 @@
+NH
+HC NY 78 21 01 
+MO MD 30 10 00 
+BS VT 93 15 00 
+BK NJ 85 16 01
+
+Opening: G:\RowanSpring16\ProgrammingLanguages\HWproject1\ExampleInput1.txt.
+HC 33
+MO 13
+BS 44
+BK 29
+
+----------------------------------------------
+
+FL
+JB FL 113 8 5
+BC MD 163 9 3
+CC NJ 95  4 3
+TC TX 210 6 5
+CF CA 40  1 0
+JG VA 22  1 0
+MH AR 25  2 0
+JK OH 35  9 2
+RP KY 13  2 0
+MR FL 135 5 5
+RS PA 38  2 0
+DT NY 298 3 4
+
+Opening: G:\RowanSpring16\ProgrammingLanguages\HWproject1\ExampleInput2.txt.
+JB 94
+BC 40
+CC 28
+TC 52
+CF 5
+JG 23
+MH 24
+JK 22
+RP 23
+MR 93
+RS 5
+DT 52
+
+----------------------------------------------
+
+NJ
+JM NJ 156 6  0
+MM OH 57  20 1
+JK NJ 166 15 0
+BK DE 147 14 2
+
+Opening: G:\RowanSpring16\ProgrammingLanguages\HWproject1\ExampleInput3.txt.
+JM 71
+MM 30
+JK 81
+BK 58
+
+----------------------------------------------
+
+CA
+BK NJ  54  8 0
+CH PA  80 12 1
+LF CA 160 22 2
+GP PA  72  7 0
+JL NJ  66 15 1
+
+Opening: G:\RowanSpring16\ProgrammingLanguages\HWproject1\ExampleInput4.txt.
+BK 13
+CH 25
+LF 98
+GP 14
+JL 26

@@ -1,0 +1,54 @@
+Brian Krick
+Programming Languages M/W 5pm
+Scheme HomeWork Source Code
+
+
+
+
+;Predicts the out come of a preliminary election by STATE using
+;a LIST containing Lists of information about the candidates as
+;follows: NAME, HOMESTATE, COMMERCIALS RUN, DAYS CAMPAIGNING, CAUCUS WINS
+;RETURNS a list of lists containing NAME and SCORE
+(define (predict STATE L)
+	(cond ( (equal? '( ) L) '( ) )
+	((not (null? L)) (cons  (Tabulate STATE (car L)) (predict STATE (cdr L))))))
+
+;Returns a numeric value for the Regions as laid out on the Spec
+(define (FindRegion STATE)
+	(cond   ((HasState? STATE "(ME NH VT MA CT RI))                    1)
+		((HasState? STATE "(NY PA NJ DE MD))                       2)
+		((HasState? STATE "(VA NC SC GA FL AL MS TN KY WV AR LA))  3)
+		((HasState? STATE "(OH MI IN IL WI MN))                    4)
+		((HasState? STATE "(IA MO ND SD ME KS OK TX))              5)
+		((HasState? STATE "(MT WY CO NM AZ UT ID NV))              6)
+		((HasState? STATE "(WA OR CA AK HI))                       7)
+))
+
+;Returns #T if the List has the State in it
+(define (HasState? STATE L)
+		(cond   ((null? L)                #F)
+			((equal? STATE (car L))   #T)
+			(else (HasState? STATE (cdr L)))))
+
+;Returns the numeric Value of the Total Score for each Candidate
+(difine (CalcScore STATE HOMESTATE COM DAYS WINS)
+		( + (SameRegion STATE HOMESTATE) (CalcCommercials COM) (CalcWins WINS) DAYS))
+
+;Returns 20 if only the Regions match, 50 if States match, 0 otherwise
+(define (SameRegion STATE HOMESTATE)
+		(cond ( (not(eq? (FindRegion STATE) (FindRegion HOMESTATE)))   0)
+			((equal? STATE HOMESTATE)                             50)
+			((eq? (FindRegion STATE) (FindRegion HOMESTATE))      20)))
+
+;Returns the value of COMMERCIALS rounded down and divided by 10
+(define (CalcCommercials COM)
+	( / ( - COM (modulo COM 10)) 10))
+
+;Returns the value of CAUCUS WINS multiplied by 5
+(define (CalcWins WINS)
+	( * 5 WINS))
+
+;Returns the List of Candidate's Name and their Score
+(define (Tabulate STATE L)
+	(cons (car L) (cons (CalcScore STATE (cadr L) (caddr L) (cadddr L) (car(cddddr L))) '( ) )
+))

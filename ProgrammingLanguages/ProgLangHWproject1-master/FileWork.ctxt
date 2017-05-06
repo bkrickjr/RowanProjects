@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FileWork()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ FileWork\r\n
+comment1.params=file
+comment1.target=void\ FindState(java.io.File)
+comment1.text=\r\n\ \r\n\ @param\ -\ String\ FileName\r\n\ @return\ -\ String\ answer\r\n
+comment2.params=state
+comment2.target=java.lang.String[]\ checkAllRegions(java.lang.String)
+comment2.text=\r\n\ Simple\ Checking\ to\ determine\ the\ region\ of\ the\ file\r\n
+comment3.params=state\ region
+comment3.target=boolean\ checkRegion(java.lang.String,\ java.lang.String[])
+comment3.text=\r\n\ Simple\ function\ to\ loop\ through\ any\ region\ given\ to\ it\ and\ check\ if\ the\ State\ entered\ is\ part\ of\ that\r\n\ region\r\n\ @param\ -\ String\ state\ is\ the\ state\ you\ wish\ to\ check\r\n\ @param\ -\ String[]\ region\ is\ the\ region\ you\ wish\ to\ check\r\n\ @return\ -\ boolean,\ true\ if\ the\ state\ is\ in\ that\ region,\ false\ if\ not\r\n
+comment4.params=HomeState\ CommercialsIn\ DaysIn\ WinsIn
+comment4.target=java.lang.String\ computeScore(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment4.text=\r\n\ Function\ to\ compute\ candidates\ Score.\ HomeState,\ Commercials,\ Days\ Running,\ Caucas\ Wins\ passed\ in\ as\r\n\ strings,\ converts\ and\ computes\ the\ score,\ returns\ a\ string\ form\ of\ the\ score\ to\ be\ printed\r\n
+comment5.params=
+comment5.target=java.io.File\ getFile()
+comment5.text=\r\n\ This\ Function\ uses\ the\ file\ chooser\ to\ select\ the\ file\ you\ wish\ to\ read\r\n
+numComments=6

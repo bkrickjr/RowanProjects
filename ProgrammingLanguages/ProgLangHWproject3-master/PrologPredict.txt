@@ -1,0 +1,76 @@
+%predict(+State, +L, -Prediction)
+%reads the list, separates the info, totals score, adds to -Prediction
+%and calls predict using +NewT
+predict(State, [ [A, B, C, D, E] ], Prediction) :-
+        total(State, B, C, D, E, Total),
+        add(Total, [], FResult),
+        add(A, FResult, CanResult),
+        add(CanResult, [], Prediction).
+predict(State, [ [A, B, C, D, E] | T ], [Prediction | NewPrediction]) :-
+        NewT = T,
+        predict(State, NewT, NewPrediction),
+        total(State, B, C, D, E, Total),
+        simpleAdd(A, Total, Prediction).
+
+%simpleAdd
+%adds X and L together into a list
+simpleAdd(X, L, [X , L]).
+
+%add(+Item, +List, -List2).
+%adds X to L and Stores it in List2
+add(X, L, [X|L]).
+
+%findRegion(+State, -Region)
+%finds the region the given state belongs to
+findRegion(State, newEngland) :-
+        member(State, [me, nh, vt, ma, ct, ri]).
+findRegion(State, northEast) :-
+        member(State, [ny, pa, nj, de, md]).
+findRegion(State, southEast) :-
+        member(State, [va, nc, sc, ga, fl, al, ms, tn, ky, wv, ar, la]).
+findRegion(State, lakes) :-
+        member(State, [oh, mi, in, il, wi, mn]).
+findRegion(State, central) :-
+        member(State, [ia, mo, nd, sd, ne, ks, ok, tx]).
+findRegion(State, west) :-
+        member(State, [mt, wy, co, nm, az, ut, id, nv]).
+findRegion(State, pacific) :-
+        member(State, [wa, or, ca, ak, hi]).
+
+%sameRegion(+State, +HomeState, -Points)
+%returns values depending on the relation of State and HomeState
+%Case1: +State == +HomeState, -Points 50
+%Case2: +State and +HomeState are the sameRegion, -Points 20
+%Case3: +State and +HomeState no relation, -Points 0
+sameRegion(State, HomeState, 50) :-
+        State == HomeState.
+sameRegion(State, HomeState, 20) :-
+        findRegion(State, X),  findRegion(HomeState, Y),
+        X == Y.
+sameRegion(State, HomeState, 0) :-
+        findRegion(State, X), findRegion(HomeState, Y),
+        X \== Y.
+
+%commercials(+Com, -Points)
+%mods +Com to subtract from the commercials and then is
+%divided by 10 and returned to -Points
+commercials(Com, Points) :-
+        R is Com mod 10,
+        Points is ((Com - R) // 10).
+
+%caucus(+Ca, -Points)
+%-Points is +Ca times 5
+caucus(Ca, Points) :- Points is (Ca * 5).
+
+%days(+Days, -Points)
+%-Points is +Days
+days(Days, Days).
+
+%total(+State, +HomeState, +Com, +Days, +Ca, -Total)
+%takes every input and determines the score
+total(State, HomeState, Com, Days, Ca, Total) :-
+        sameRegion(State, HomeState, A),
+        commercials(Com, B),
+        days(Days, C),
+        caucus(Ca, D),
+        Total is A + B + C + D.
