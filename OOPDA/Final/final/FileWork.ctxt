@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FileWork()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ FileWork\r\n
+comment1.params=file
+comment1.target=java.lang.String\ FindL(java.io.File)
+comment1.text=\r\n\ This\ method\ is\ used\ to\ search\ through\ a\ file\ for\ a\ designated\ line\ and\ return\ the\ contents\ of\ the\ line\r\n\ @param\ -\ String\ FileName\r\n\ @return\ -\ String\ answer\r\n
+comment2.params=
+comment2.target=java.io.File\ getFile()
+numComments=3

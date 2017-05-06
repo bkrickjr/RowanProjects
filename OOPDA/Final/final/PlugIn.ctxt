@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=serialnoIn\ mpgIn
+comment0.target=PlugIn(java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ PlugIn\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\ toString\ -\ returns\ a\ string\ representation\ of\ this\ instance\r\n\ \r\n\ @return\ string\ -\ description\ of\ instance\r\n
+numComments=2

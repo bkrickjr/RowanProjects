@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=serialnoIn
+comment0.target=Car(java.lang.String)
+comment0.text=\r\n\ Car\ Constructor\r\n\t\ \r\n\ @param\ String\ serialnoIn\r\n
+comment1.params=
+comment1.target=java.lang.String\ getSerialNumber()
+comment1.text=\ getSerialNumber\ -\ returns\ serial\ number\ as\ a\ string\r\n\ \r\n\ @return\ string\ serial\ number\r\n
+comment2.params=R
+comment2.target=void\ setRented(boolean)
+comment3.params=
+comment3.target=boolean\ getRented()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\ toString\ -\ returns\ a\ string\ representation\ of\ this\ instance\r\n\ \r\n\ @return\ string\ -\ description\ of\ instance\r\n
+numComments=5

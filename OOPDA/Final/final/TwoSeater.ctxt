@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=serialnoIn\ mpgIn
+comment0.target=TwoSeater(java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ PlugIn\r\n
+comment1.params=
+comment1.target=double\ sportiness()
+comment1.text=\r\n\ sportiness\ -\ \r\n\ @return\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\ toString\ -\ returns\ a\ string\ representation\ of\ this\ instance\r\n\ \r\n\ @return\ string\ -\ description\ of\ instance\r\n
+numComments=3

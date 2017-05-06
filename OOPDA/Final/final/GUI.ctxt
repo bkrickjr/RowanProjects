@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GUI()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ GUI\r\n
+comment1.params=jp
+comment1.target=void\ setContents(javax.swing.JPanel)
+comment1.text=\r\n\ sets\ the\ contents\ of\ The\ JPanel\ you\ pass\ it\r\n
+comment2.params=
+comment2.target=void\ quitProgram()
+comment3.params=
+comment3.target=void\ makeMenu()
+comment3.text=\r\n\ creates\ a\ menu\ with\ File,\ leads\ to\ Exit,\ and\ Help\r\n
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=e
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.params=e
+comment7.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=8

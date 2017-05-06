@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=serialnoIn\ mpgIn
+comment0.target=Economy(java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Economy\r\n
+comment1.params=
+comment1.target=int\ getMilesPerGallon()
+comment1.text=\ getMilesPerGallon\ -\ returns\ an\ int\ of\ miles\ per\ gallon\r\n\ @return\ int\ -\ miles\ per\ gallon\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\ toString\ -\ returns\ a\ string\ representation\ of\ this\ instance\r\n\ \r\n\ @return\ string\ -\ description\ of\ instance\r\n
+numComments=3
