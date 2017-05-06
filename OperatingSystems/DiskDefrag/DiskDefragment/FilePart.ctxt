@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=NameIn\ NumberIn
+comment0.target=FilePart(java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ FilePart\r\n
+comment1.params=NumberIn
+comment1.target=void\ setNumber(int)
+comment1.text=\r\n\ simple\ setter\ for\ Number\r\n\ @param\ -\ int\ to\ set\ to\ the\ Number\r\n\ @return\ -\ void\r\n
+comment2.params=
+comment2.target=int\ getNumber()
+comment2.text=\r\n\ simple\ getter\ for\ Number\r\n\ @param\ -\ none\r\n\ @return\ -\ int\ Number\r\n
+comment3.params=NameIn
+comment3.target=void\ setName(java.lang.String)
+comment3.text=\r\n\ simple\ setter\ for\ Name\r\n\ @param\ -\ String\ to\ set\ the\ Name\r\n\ @return\ -\ void\r\n
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment4.text=\r\n\ simple\ getter\ for\ the\ Name\r\n\ @param\ -\ none\r\n\ @return\ -\ String\ Name\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ String\ representation\ of\ the\ object\r\n\ @param\ -\ none\r\n\ @return\ -\ String\ representation\ of\ the\ object\r\n
+numComments=6

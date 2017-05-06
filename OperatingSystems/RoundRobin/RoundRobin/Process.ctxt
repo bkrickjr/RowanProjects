@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=NameIn
+comment0.target=Process(int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Process\r\n
+comment1.params=NameIn
+comment1.target=void\ setName(int)
+comment2.params=
+comment2.target=int\ getTTF()
+comment3.params=quantom
+comment3.target=void\ Decrement(int)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

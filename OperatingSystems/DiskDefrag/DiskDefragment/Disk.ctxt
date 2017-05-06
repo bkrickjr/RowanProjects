@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Disk()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Disk\r\n
+comment1.params=test
+comment1.target=Disk(int)
+comment1.text=\r\n\ Test\ Constructor\ populates\ the\ array\ at\ different\ places\ from\ string\ constructor\r\n\ input\ does\ not\ matter\!\!\r\n
+comment2.params=test
+comment2.target=Disk(java.lang.String)
+comment2.text=\r\n\ Test\ Constructor\ populates\ the\ array\ at\ different\ places\ from\ int\ constructor\r\n\ input\ does\ not\ matter\!\!\r\n
+comment3.params=fp\ i
+comment3.target=void\ addFilePart(FilePart,\ int)
+comment3.text=\r\n\ adds\ a\ file\ part\ to\ the\ array\ at\ the\ selected\ slot\r\n\ @param\ -\ FilePart\r\n\ @param\ -\ int\ i\ where\ i\ is\ location\ in\ the\ array\r\n
+comment4.params=
+comment4.target=void\ Defragment()
+comment4.text=\r\n\ defragment\ method\ should\ put\ all\ the\ file\ parts\ in\ order\ and\ at\ the\ front\ of\ the\ array\r\n\ @param\ -\ none\r\n\ @return\ -\ none\r\n
+comment5.params=i\ j\ temp
+comment5.target=void\ sortFilePartsName(int,\ int,\ FilePart)
+comment5.text=\r\n\ sort\ method\ for\ the\ names,\ organizes\ all\ the\ file\ parts\ by\ name\r\n\ @param\ -\ int\ i\:\ counter\ variable\r\n\ @param\ -\ int\ j\:\ counter\ variable\r\n\ @param\ -\ FilePart\ temp\:\ temporary\ place\ holder\ to\ help\ with\ swapping\r\n\ @return\ -\ void\r\n
+comment6.params=i\ j\ temp
+comment6.target=void\ sortFilePartsNumber(int,\ int,\ FilePart)
+comment6.text=\r\n\ sort\ method\ for\ the\ number,\ organizes\ all\ the\ file\ parts\ by\ number\r\n\ @param\ -\ int\ i\:\ counter\ variable\r\n\ @param\ -\ int\ j\:\ counter\ variable\r\n\ @param\ -\ FilePart\ temp\:\ temporary\ place\ holder\ to\ help\ with\ swapping\r\n\ @return\ -\ void\r\n
+comment7.params=i\ j\ temp
+comment7.target=void\ sortNulls(int,\ int,\ FilePart)
+comment7.text=\r\n\ sort\ method\ for\ the\ nulls,\ puts\ all\ the\ nulls\ at\ the\ end\ of\ the\ array\r\n\ @param\ -\ int\ i\:\ counter\ variable\r\n\ @param\ -\ int\ j\:\ counter\ variable\r\n\ @param\ -\ FilePart\ temp\:\ temporary\ place\ holder\ to\ help\ with\ swapping\r\n\ @return\ -\ void\r\n
+numComments=8
