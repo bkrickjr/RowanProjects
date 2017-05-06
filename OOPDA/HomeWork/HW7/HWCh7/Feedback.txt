@@ -1,0 +1,10 @@
+C6 - OK - needs corrections
+
+Nice README
+
+need to indent showMembers output - will review in class
+
+
+C7 - OK - needs corrections
+
+tests fails

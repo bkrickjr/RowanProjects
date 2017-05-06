@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FullTestShapes()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ FullTestShapes\r\n
+comment1.params=L
+comment1.target=void\ showArea(java.util.ArrayList)
+comment1.text=\r\n\ show\ area\ method,\ loops\ a\ collection\ of\ Shapes\ and\ prints\ their\ areas\r\n\ @param\ -\ ArrayList\ of\ Shapes\ L\r\n\ @return\ -\ void\r\n
+comment2.params=L
+comment2.target=void\ printSquares(java.util.ArrayList)
+comment2.text=\r\n\ print\ method\ for\ Squares\ and\ their\ sides\ size\r\n\ @param\ -\ ArrayList\ of\ Shapes\ L\r\n\ @return\ -\ void\r\n
+comment3.params=L
+comment3.target=void\ printRectangles(java.util.ArrayList)
+comment3.text=\r\n\ print\ method\ for\ All\ Rectangles\ and\ their\ sides\ size\r\n\ @param\ -\ ArrayList\ of\ Shapes\ L\r\n\ @return\ -\ void\r\n
+comment4.params=L
+comment4.target=void\ printRectanglesExclusive(java.util.ArrayList)
+comment4.text=\r\n\ print\ method\ for\ Exclusively\ Rectangles\ and\ their\ sides\ size\r\n\ @param\ -\ ArrayList\ of\ Shapes\ L\r\n\ @return\ -\ void\r\n
+numComments=5

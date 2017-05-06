@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=FullTestShapes()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ FullTestShapes\r\n
+comment1.params=L
+comment1.target=void\ showArea(java.util.ArrayList)
+comment1.text=\r\n\ show\ area\ method,\ loops\ a\ collection\ of\ Shapes\ and\ prints\ their\ areas\r\n\ @param\ -\ ArrayList\ L\r\n\ @return\ -\ void\r\n
+numComments=2

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Square()
+comment0.text=\r\n\ Default\ Constructor\ for\ objects\ of\ class\ Square\r\n
+comment1.params=sideIn
+comment1.target=Square(double)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Square\ only\ passes\ one\ side\ length\r\n
+comment2.params=colorIn\ filledIn\ sideIn
+comment2.target=Square(java.lang.String,\ boolean,\ double)
+comment2.text=\ \r\n\ Constructor\ for\ objects\ of\ the\ class\ Square\ passing\ all\ variables\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ toString\ method\r\n\ @param\ -\ none\r\n\ @return\ -\ string\ representation\ of\ the\ object\r\n
+comment4.params=sideIn
+comment4.target=void\ setLength(double)
+comment5.params=sideIn
+comment5.target=void\ setWidth(double)
+numComments=6
